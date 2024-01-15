@@ -1,0 +1,20 @@
+#!/bin/bash
+# This is a simple script following Betty style guidelines.
+
+function greet_user {
+    echo "Hello, user!"
+}
+
+function get_input {
+    read -p "Enter your name: " name
+    echo "You entered: $name"
+}
+
+function main {
+    greet_user
+    get_input
+}
+
+# Call the main function
+main
+
