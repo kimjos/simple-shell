@@ -65,6 +65,7 @@ Simple shell 0.2 +
 
 Handle the PATH
 fork must not be called if the command doesn’t exist
+```
 julien@ubuntu:~/shell$ ./shell_0.3
 :) /bin/ls
 barbie_j       env-main.c  exec.c  fork.c  pid.c  ppid.c    prompt   prompt.c  shell_0.3  stat    test_scripting.sh  wait.c
@@ -81,6 +82,7 @@ drwx------ 3 root   root   4096 Dec  5 12:07 systemd-private-062a0eca7f2a4434973
 -rw-rw-r-- 1 julien julien    0 Dec  5 12:09 unity_support_test.0
 :) ^C
 julien@ubuntu:~/shell$ 
+```
 Repo:
 
 GitHub repository: simple_shell
@@ -101,6 +103,7 @@ mandatory
 Simple shell 0.4 +
 
 Implement the env built-in, that prints the current environment
+```
 julien@ubuntu:~/shell$ ./simple_shell
 $ env
 USER=julien
@@ -116,7 +119,8 @@ TERM=xterm-256color
 PATH=/home/julien/bin:/home/julien/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 DISPLAY=:0
 $ exit
-julien@ubuntu:~/shell$ 
+julien@ubuntu:~/shell$
+``` 
 Repo:
 
 GitHub repository: simple_shell
@@ -139,6 +143,5 @@ GitHub repository: simple_shell
 7. Simple shell 0.2.1
 #advanced
 Simple shell 0.2 +
-Repo:
 
 GitHub repository: simple_shell
